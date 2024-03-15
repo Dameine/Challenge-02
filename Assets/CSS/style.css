@@ -1,0 +1,134 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;*
+}
+
+body{
+    font-family:Arial, Helvetica, sans-serif;
+    background-color: #00CED1;
+}
+
+/*header-nav*/
+header{
+    background-color: rgb(132, 218, 218);
+    color: black;
+    padding: 25px;
+    width: auto;
+}
+
+.header h1{
+    display: inline-block;
+}
+
+nav{
+    float: right;
+    padding-top: 5px;
+}
+
+.header ul{
+    list-style-type: none;
+    font-size: 20px;
+}
+
+.header li{
+    display: inline-flex;
+    text-align: center;
+    margin: 0 25px 0 25px;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-size: 20px;
+}
+
+.hero{
+    margin-left: auto;
+    margin-right: auto;
+    width: 100vw;
+    height: 35vh;
+}
+
+/*About me section*/
+h2{
+    font-size: 40px;
+}
+
+.about-me{
+    display: flex;
+    height: 250px;
+    margin: 10px;
+}
+
+.about-me h2{
+    width: 200px;
+}
+
+.about-me p{
+    width: auto;
+    margin: 10px;
+    font-size: 18px;
+    display: inline-flex;
+}
+
+.profile-picture{
+    width: 250px;
+    margin: 20px;
+}
+
+/*Work section*/
+.work{
+    display: flex;
+    margin: 20px;
+}
+
+.work h2{
+    display: flex;
+    width: 200px;
+}
+
+.container{
+    width: 100vw;
+}
+
+.horiseon {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+}
+
+.container-2{
+    display: flex;
+    margin: auto;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+}
+
+.box{
+    max-width: 15%;
+}
+
+.info{
+    display: flex;
+}
+
+.info h2{
+    font-size: 25px;
+}
+
+.info ul{
+    width: 100vw;
+    list-style: none;
+}
+
+.info li{
+    display: inline-flex;
+    margin-left: 10%;
+    font-size: 25px;
+}
+
+.info li a{
+    size: 25px;
+}
